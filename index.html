@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>Nick Ramsay's Portfolio</title>
-        <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/48420063?s=460&v=4">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- We link our html to the Bootstrap CDN -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <header>
-            <div class="headerContent">
-                <a href="https://github.com/Nick-Ramsay" target="_blank" class="headerName"><strong>Nick Ramsay</strong></a>
-                <div class="headerLinks">
-                    <a href="index.html" class="headerLinksText">About</a>
-                    <span class="headerLinksText">|</span>
-                    <a href="portfolio.html" class="headerLinksText">Portfolio</a>
-                    <span class="headerLinksText">|</span>
-                    <a href="contact.html" class="headerLinksText">Contact</a>
-                </div>
-            </div>
-        </header>
-        <div class="content">
-            <h1>About Me</h1>
-            <img src="https://avatars0.githubusercontent.com/u/48420063?s=460&v=4" width="200px" height="200px" class="aboutMeImg">
-            <p>
-                My name is Nick Ramsay. 
-                I'm currently a student at the University of Sydney's Full Stack Coding Bootcamp.
-                I'm originally from the northeastern United States but now live and work in Australia.  
-                After graduating from university in 2011, I've been working in the electronic health record industry.
-                My areas of focus have largely been in business and data analysis, product design, and implementation.
-            </p>
-            <p>
-                Growing up in the Appalachian Mountains of Northern New Hampshire, I enjoy all sorts of outdoor activities.
-                Some of my favourite activities include hiking, running, skiing, and snoeshoeing.
-                Of course, the snow related activities have been hard to continue living in Australia.
-                I also enjoy travelling and most recently visited Taiwan and Japan.
-            </p>
-            <p>
-                I have many interests beyond coding. 
-                I've been a lifelong history buff, studying history and economics at my university.
-                I love keeping up with current events in the world, particularly international affairs and politics.
-                I like a wide variety of music, everything from folk music to punk rock to classical.
-            </p>
+
+<head>
+    <title>Nick Ramsay's Portfolio - Bootstrap Edition</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNavbar" style="padding:0; text-decoration:none">
+    <div class="customNavContainer" style="text-decoration: none">
+        <a class="customNavName" href="https://github.com/nick-ramsay" style="text-decoration: none">Nick Ramsay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="float:right;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="float:right">
+            <ul class="navbar-nav customNavLinksContainer" style="padding:25px 0px 0px 0px">
+                <li class="nav-item">
+                    <a class="nav-link customNavLinks" href="index.html" style="padding:0px">About</a>
+                </li>
+                <li>
+                    <span class="customNavLinks"> | </span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customNavLinks" href="portfolio.html" style="padding:0px">Portfolio</a>
+                </li>
+                <li>
+                    <span class="customNavLinks"> | </span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customNavLinks" href="contact.html" style="padding:0px">Contact</a>
+                </li>
+            </ul>
         </div>
-        <footer>
-            Copyright © 
-        </footer>
-    </body>
+    </div>
+</nav>
+
+<body>
+
+    <section class="content">
+        <h1>About Me</h1>
+        <img src="https://avatars0.githubusercontent.com/u/48420063?s=460&v=4" width="200px" height="200px"
+            class="aboutMeImg">
+        <p>
+            My name is Nick Ramsay.
+            I'm currently a student at the University of Sydney's Full Stack Coding Bootcamp.
+            I'm originally from the northeastern United States but now live and work in Australia.
+            After graduating from university in 2011, I've been working in the electronic health record industry.
+            My areas of focus have largely been in business and data analysis, product design, and implementation.
+        </p>
+        <p>
+            Growing up in the Appalachian Mountains of Northern New Hampshire, I enjoy all sorts of outdoor activities.
+            Some of my favourite activities include hiking, running, skiing, and snoeshoeing.
+            Of course, the snow related activities have been hard to continue living in Australia.
+            I also enjoy travelling and most recently visited Taiwan and Japan.
+        </p>
+        <p>
+            I have many interests beyond coding.
+            I've been a lifelong history buff, studying history and economics at my university.
+            I love keeping up with current events in the world, particularly international affairs and politics.
+            I like a wide variety of music, everything from folk music to punk rock to classical.
+        </p>
+    </section>
+
+    <footer class="footer"> Test</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
