@@ -13,8 +13,8 @@
     <title>Nick Ramsay's Portfolio - Bootstrap Edition</title>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light customNavbar" style="padding:0; text-decoration:none">
-    <div class="col-md-12" style="text-decoration: none">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top customNavbar" style="padding:0; text-decoration:none">
+    <div class="col-12">
         <a class="customNavName" href="https://github.com/nick-ramsay" style="text-decoration: none">Nick Ramsay</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="float:right;">
@@ -39,51 +39,46 @@
 <body>
     <main>
         <div class="container customContent">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4 p-6 portImg">
-                        <a href="#">
-                            <img src="assets/images/hangman.jpg" alt="Hangman" width=100% height=100%>
-                            <div class="portLabel">Hangman</div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 p-6 portImg">
-                        <a href="#">
-                            <img src="assets/images/rpggame.jpg" alt="RPG Game" width=100% height=100%>
-                            <div class="portLabel">RPG Game</div>
-                        </a>
+            <h1>Portfolio</h1>
+            <div class="row pt-1">
+                <div class="col-md-4 mb-1" align="center">
+                    <div class="card w-75">
+                        <img class="card-img-top" src="assets/images/hangman.jpg" alt="Card image cap">
+                        <a href="#" class="btn customPortBtn">Hangman</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 p-6 portImg">
-                        <a href="">
-                            <img src="assets/images/triviagame.jpg" alt="Trivia Game" width=100% height=100%>
-                            <div class="portLabel">Trivia Game</div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 p-6 portImg">
-                        <a href="">
-                            <img src="assets/images/rutgersinfowidget.jpg" alt="Rutgers Info Widget" width=100%
-                                height=100%>
-                            <div class="portLabel">Rutgers Info Widget</div>
-                        </a>
+                <div class="col-md-4 mb-1" align="center">
+                    <div class="card w-75">
+                        <img class="card-img-top" src="assets/images/rpggame.jpg" alt="Card image cap">
+                        <a href="#" class="btn customPortBtn">RPG Game</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 p-6 portImg">
-                        <a href="">
-                            <a href="">
-                                <img src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors" width=100%
-                                    height=100%>
-                                <div class="portLabel">Rock Paper Scissors</div>
-                            </a>
-                        </a>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-1" align="center">
+                    <div class="card w-75">
+                        <img class="card-img-top" src="assets/images/triviagame.jpg" alt="Card image cap">
+                        <a href="#" class="btn customPortBtn">Trivia Game</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1" align="center">
+                    <div class="card w-75">
+                        <img class="card-img-top" src="assets/images/rutgersinfowidget.jpg" alt="Card image cap">
+                        <a href="#" class="btn customPortBtn">Rutgers Info Widget</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-1" align="center">
+                    <div class="card w-75">
+                        <img class="card-img-top" src="assets/images/rockpaperscissors.jpg" alt="Card image cap">
+                        <a href="#" class="btn customPortBtn">Rock Paper Scissors</a>
                     </div>
                 </div>
             </div>
     </main>
-    <footer>
-        <p>Copyright ©</p>
+    <footer class="fixed-bottom customFooter">
+            <p>Copyright ©</p>
     </footer>
 
     <!-- Optional JavaScript -->

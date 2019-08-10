@@ -34,7 +34,6 @@ body {
 
 .customNavName {
     color: white;
-    text-decoration: none!important;
     padding: 20px;
     background-color:#4aaaa5;
     float: left;
@@ -48,7 +47,6 @@ body {
 
 .customNavLinksContainer {
     font-size: 16px;
-    float: right;
     padding-top: 40px;
 }
 
@@ -61,10 +59,8 @@ body {
 .customContent {
     background-color: #ffffff;
     padding:20px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 80px;
+    margin-top: 73px;
+    margin-bottom: 73px;
     border: solid;
     border-width: 1px;
     border-color: #dddddd;    
@@ -73,7 +69,6 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    font-size: 24px;
     border-bottom:solid;
     border-bottom-width: 2px;
     border-bottom-color: #4aaaa5;
@@ -101,112 +96,27 @@ h1 {
     animation: bounce 1.0s;
 }
 
-.portImg:hover {
-    animation: bounce 1.0s;  
-}
-
-.portLabel {
-    position: absolute;
-    padding: 10px 15px 10px 15px;
-    bottom:20px;
+.customPortBtn {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 100%;
-    text-align:center;
 }
 
-footer{
+.customPortBtn:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border:solid 1px #4aaaa5;
+    animation: bounce 1.0s; 
+}
+
+.customFooter{
     color:#ffffff;
-    padding-top: 15px;
-    padding-bottom:5px;
     font-size: 10px;
     background-color: #666666;
     width:100%;
-    margin-top: 20px;
     text-align: center;
-    bottom:0;
-    position: fixed;
     border-top: solid;
-    border-top-width: 8px;
+    border-top-width: 5px;
     border-top-color:#4aaaa5;
 }
-
-/*
-
-.content {
-    background-color: #ffffff;
-    padding:20px;
-    width: 920px;
-    height: auto;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    border: solid;
-    border-width: 1px;
-    border-color: #dddddd;    
-}
-
-
-/*
-
-
-*/
-
-/*Start: CSS Classes and ids for Contact Form*/
-/*
-form {
-    width: 100%  
-}
-
-input {
-    width: 100%
-}
-
-textarea {
-    width: 100%
-}
-
-.contactSubmitBtn {
-    background-color:#4aaaa5;
-    color:white;
-    text-align: center;
-    border: none;
-    height: 30px;
-    width: 60px;
-}
-
-.contactSubmitBtn:hover {
-    animation: bounce 1.0s;
-}
-*/
-/*Start: CSS classes and ids for Portfolio page*/
-/*NOTE - Referenced following page: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side */
-/*
-.portCol {
-    float: left;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left:2%;
-    margin-right:2%;
-    width:29.33%;
-    height: 175px;
-}
-
-.portCol:hover {
-    
-}
-
-
-*/
-/* Clearfix (clear floats) */
-/*
-.portRow::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-
-*/
